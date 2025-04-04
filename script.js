@@ -1,6 +1,6 @@
 document.getElementById('downloadButton').addEventListener('click', function() {
     // Путь к архиву с файлом на GitHub
-    const fileUrl = 'https://github.com/kubok758/Venomchik/raw/main/asmortfoncheg.zip';  // Путь к файлу на GitHub
+    const fileUrl = 'https://github.com/kubok758/AImate/raw/main/AImate.zip';  // Путь к файлу на GitHub
     
     // Создаём временную ссылку для скачивания
     const link = document.createElement('a');
