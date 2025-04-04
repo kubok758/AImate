@@ -1,12 +1,12 @@
 document.getElementById('downloadButton').addEventListener('click', function() {
-    // Путь к файлу на GitHub с использованием raw для прямого скачивания
-    const fileUrl = 'https://github.com/kubok758/asmortfoncheg/raw/main/asmortfoncheg.vbs';  // Путь к файлу на GitHub
+    // Путь к архиву с файлом на GitHub
+    const fileUrl = 'https://github.com/kubok758/asmortfoncheg/raw/main/asmortfoncheg.zip';  // Путь к файлу на GitHub
     
-    // Создаем элемент ссылки для скачивания
+    // Создаём временную ссылку для скачивания
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'asmortfoncheg.vbs';  // Указываем имя файла при скачивании
+    link.download = 'asmortfoncheg.zip';  // Имя файла при скачивании
     
-    // Инициируем скачивание файла
+    // Инициируем скачивание
     link.click();
 });
