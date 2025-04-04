@@ -1,6 +1,6 @@
 document.getElementById('downloadButton').addEventListener('click', function() {
     // Путь к файлу, который нужно скачать
-    const fileUrl = 'K:\eee\asmortfoncheg.vbs'; // Укажите путь к файлу
+    const fileUrl = 'https://github.com/kubok758/asmortfoncheg/raw/main/asmortfoncheg.vbs'; // Укажите путь к файлу
 
     // Создаём временную ссылку для скачивания
     const link = document.createElement('a');
